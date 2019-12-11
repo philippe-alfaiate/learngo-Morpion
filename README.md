@@ -64,7 +64,7 @@ import (
 C'est pour dire quelle bibliothèque on utilise.
 Mais c'est quoi une bibliothèque ?
 C'est un ensemble de fonctions qui ont déjà été faite pour éviter de refaire des choses.
->	par exemple : ```math.max(5, 6) ```Cette fonction calcule le maximum entre 2 nombre, c'est plus rapide de l'utilier plutôt que de la refaire
+>	par exemple : ```math.max(5, 6)``` Cette fonction calcule le maximum entre 2 nombre, c'est plus rapide de l'utilier plutôt que de la refaire. Elle est contenu dans la bibliothèque ```"math"```
 
 
 
