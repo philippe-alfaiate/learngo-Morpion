@@ -9,6 +9,8 @@ puis ouvrir le dossier avec l'application vscode
 
 ## Commencer à programmer
 
+Il y a une règle à suivre : il ne faut modifer le fichier uniquement lorsque *** sera afficher
+
 Voici le contenu du fichier morpion.go
 
 ```go
