@@ -61,14 +61,10 @@ import (
 	"github.com/faiface/pixel/pixelgl"
 )
 ```
-C'est pour dire quel bibliothèque on utilise.
+C'est pour dire quelle bibliothèque on utilise.
 Mais c'est quoi une bibliothèque ?
-C'est des fonctions qui ont déjà été faite pour évité de refaire des choses.
-	par exemple :
-	```go
-	math.max(5, 6)
-	```
-	Cette fonction calcule le maximum entre 2 nombre, c'est plus rapide de l'utilier plutôt que de la refaire
+C'est un ensemble de fonctions qui ont déjà été faite pour éviter de refaire des choses.
+>	par exemple : ```math.max(5, 6) ```Cette fonction calcule le maximum entre 2 nombre, c'est plus rapide de l'utilier plutôt que de la refaire
 
 
 
