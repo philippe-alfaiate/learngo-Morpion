@@ -7,9 +7,9 @@ Apprendre à faire un morpion en go
 Copier le dossier ACopier et le renommer en PrénomNom
 puis ouvrir le dossier avec l'application vscode
 
-##
+## Commencer à programmer
 
-What things you need to install the software and how to install them
+Voici le contenu du fichier morpion.go
 
 ```go
 package main
@@ -34,9 +34,71 @@ func main() {
 }
 
 func run() {
+
 }
 
 ```
+
+Que veux dire se code ?
+
+La première ligne: 
+
+```go
+package main
+```
+Pour faire simple, c'est pour dire que notre application se lancera directement (un jeu, une application)
+
+
+La ligne suivante:
+
+```go
+import (
+	"fmt"
+	"image/color"
+
+	"github.com/faiface/pixel"
+	"github.com/faiface/pixel/imdraw"
+	"github.com/faiface/pixel/pixelgl"
+)
+```
+C'est pour dire quel bibliothèque on utilise.
+Mais c'est quoi une bibliothèque ?
+C'est des fonctions qui ont déjà été faite pour évité de refaire des choses.
+	par exemple :
+	```go
+	math.max(5, 6)
+	```
+	Cette fonction calcule le maximum entre 2 nombre, c'est plus rapide de l'utilier plutôt que de la refaire
+
+
+
+
+La ligne suivante:
+
+```go
+var notClose bool
+```
+
+```go
+func main() {
+	notClose = true
+	for notClose {
+		pixelgl.Run(run)
+	}
+
+}
+```
+
+```go
+func run() {
+
+}
+
+```
+
+
+
+* [Choisir une couleur](https://www.w3schools.com/colors/colors_picker.asp) - Couleur
 
 ##
 
