@@ -4,7 +4,7 @@ Apprendre à faire un morpion en go
 
 ## Préparation
 
-Copier le dossier ACopier et le renommer en PrénomNom
+Copier le dossier learngo-morpion et le renommer en PrénomNom
 puis ouvrir le dossier avec l'application vscode
 
 ## Comprendre comment ça fonctionne
